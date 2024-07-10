@@ -1,0 +1,7 @@
+[09-Jul-2024 15:11:50 Asia/Kolkata] Received amount: 
+[09-Jul-2024 15:11:50 Asia/Kolkata] User ID: 4
+[09-Jul-2024 15:11:50 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'amount' in 'field list' in C:\xampp\htdocs\shop\main\process_cod.php:27
+Stack trace:
+#0 C:\xampp\htdocs\shop\main\process_cod.php(27): mysqli->query('INSERT INTO ord...')
+#1 {main}
+  thrown in C:\xampp\htdocs\shop\main\process_cod.php on line 27
